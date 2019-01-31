@@ -1,0 +1,236 @@
+/* CSS Document */
+*{margin:0; padding:0;}
+html {
+  scroll-behavior: smooth;
+}
+body{font-family: 'Cabin', sans-serif;}
+header{padding-top:50px;
+background-color:rgb(71,160,18);
+}
+nav {margin:0 auto;
+ 
+  position: fixed;
+  top: 0;
+  z-index:9998;
+text-align:right;
+width:100%;
+background-color:rgb(71,160,18);
+padding-top:10px;
+padding-bottom:10px;
+}
+
+ 
+ul a{
+            color:white;
+            text-decoration:none;
+                    padding:15px 35px;
+                    text-align:center;
+                    font-size:1.5em;                     
+            }
+ul a:hover{background-color:black;}
+nav ul {
+  position:relative;
+right:15%;
+background-color:rgb(71,160,18);}
+li { 
+    margin:15px 0px;
+   list-style-type:none;
+display:inline-block;
+ 
+}
+ 
+.header-text, .header-big-logo{color:white;
+             width:49%;
+             display:inline-block;
+             margin-top:40px;
+             z-index:99999;
+             }
+
+@media only screen and (max-width:789px){
+
+header{padding:0 !important;}
+
+
+ nav {
+position:initial;
+text-align:center;} 
+
+
+
+.responsive-hide{
+  display:none;
+}
+
+ul {
+  position:static;
+}
+li{
+  display:block;
+}
+
+ul a{
+  padding:10px;
+}
+
+.header-text{
+  display:block;
+  width:100%;
+  text-align:center;
+}
+
+.header-text h1, .header-text p{
+  margin-left:0px !important;
+}
+
+#first-line{
+  flex-direction: column-reverse;
+}
+
+.contact-container, .hours-container{
+  width:95% !important;
+  padding:10px;
+}
+
+iframe{
+  width:150px;
+  height:auto;
+}
+
+#odkaz{
+  margin-bottom:40px;
+}
+
+
+}
+
+ #big-logo1{
+ border: 2px dashed black;
+ width:280px;
+ height:180px;
+ position:absolute;
+ top:15%;}
+ #big-logo2{
+ border: 2px dashed black;
+ width:280px;
+ height:180px;
+ position:absolute;
+ top:25%;
+ right:15%;}            
+.header-text img {position:relative;
+left:30%;}
+.header-text{padding-bottom:50px;}
+.header-text p{font-size:15pt;
+margin-left:25px;
+font-weight:bold;}
+ .header-text h1{margin-left:25px;}            
+.header-text-bottom p{font-size:15pt;
+           background-color:rgb(45,45,45);
+             padding:50px 25px;
+             font-weight:bold;
+             color:white;
+             text-align:center;}
+ 
+#first-line {
+background-color:white;
+color:black;
+padding-bottom:10px;
+display:flex;
+}          
+.contact-container{font-size:15pt;
+             font-weight:bold;
+             width:48%;
+             display:inline-block;
+           
+          
+             }
+.contact-container p{text-align:center;
+padding-top:70px;}
+.hours-container {width:50%; display:inline-block;
+
+margin-top:15px;
+ 
+}
+ 
+.hours-container table{margin:0 auto;
+min-width:250px;
+font-size:14pt;
+}
+.hours-container table .bottom {border-bottom: 1px solid #ddd;}
+ 
+.hours-container table td{padding-right:15px; 
+}
+.hours-container table tr:hover{background-color:lightgray;}
+.hours-container caption {font-size:1.5em;
+  font-weight:bold;}
+.hours-container p{text-align:center;
+margin-top:10px;
+line-height:1.5em;}
+ 
+#about-us {text-align:center;
+          margin-bottom:30px;
+          padding-bottom:30px;
+          padding-top:30px;
+          background-color:darkorange;}
+.about-content { max-width:75%;
+margin:0 auto;}
+.about-content p{line-height:1.5em;}
+.about-content hr{color:black;
+               margin:5px 0px 5px 0px;}
+ 
+ 
+ 
+#pricelist{text-align:center;
+margin-bottom:40px;}
+#pricelist table{margin:0 auto;
+font-size:14pt;}
+#pricelist table caption {font-size:1.5em; font-weight:bold;}
+#pricelist table td {padding-right:15px;}
+#pricelist table tr:hover {background-color:lightgray;}
+ 
+#insurance {background-color:lightgray;
+padding-top:25px;
+padding-bottom:25px;
+text-align:center;}
+  
+.seznam-pojistoven{
+  max-width:60%;
+  margin:0 auto;
+}
+  #pojistovny {
+background-color:initial;
+}
+
+#pojistovny li{display:block;
+text-align:center;}
+
+#odkaz{
+    text-align:center;
+    padding:25px 0px;
+}
+
+#odkaz a{color:green;}
+ 
+ 
+footer{background-color:rgb(45,45,45);
+color:white;
+text-align:center;}
+ 
+#myBtn {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 20px; /* Place the button at the bottom of the page */
+    right: 30px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color: rgb(71,160,18); /* Set a background color */
+    color: white; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 15px; /* Some padding */
+    border-radius: 10px; /* Rounded corners */
+    font-size: 18px; /* Increase font size */
+}
+ 
+#myBtn:hover {
+    background-color: #555; /* Add a dark-grey background on hover */
+}
